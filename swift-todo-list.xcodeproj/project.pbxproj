@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3E306C192AE63A9500F98713 /* swift_todo_listApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E306C182AE63A9500F98713 /* swift_todo_listApp.swift */; };
-		3E306C1B2AE63A9500F98713 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E306C1A2AE63A9500F98713 /* ContentView.swift */; };
+		3E306C1B2AE63A9500F98713 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E306C1A2AE63A9500F98713 /* MainView.swift */; };
 		3E306C1D2AE63A9700F98713 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E306C1C2AE63A9700F98713 /* Assets.xcassets */; };
 		3E306C202AE63A9700F98713 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E306C1F2AE63A9700F98713 /* Preview Assets.xcassets */; };
 		3E306C2A2AE63C7100F98713 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 3E306C292AE63C7100F98713 /* FirebaseAnalytics */; };
@@ -39,15 +39,27 @@
 		3E306C5C2AE63C7100F98713 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 3E306C5B2AE63C7100F98713 /* FirebaseStorage */; };
 		3E306C5E2AE63C7100F98713 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 3E306C5D2AE63C7100F98713 /* FirebaseStorageCombine-Community */; };
 		3E306C602AE63D6900F98713 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E306C5F2AE63D6900F98713 /* GoogleService-Info.plist */; };
+		3E9C173B2AE6427A004E8EDC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9C173A2AE6427A004E8EDC /* ProfileView.swift */; };
+		3E9C173D2AE642A1004E8EDC /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9C173C2AE642A1004E8EDC /* ListView.swift */; };
+		3E9C173F2AE642B3004E8EDC /* NewItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9C173E2AE642B3004E8EDC /* NewItemView.swift */; };
+		3E9C17412AE642BE004E8EDC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9C17402AE642BE004E8EDC /* LoginView.swift */; };
+		3E9C17432AE642DA004E8EDC /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9C17422AE642DA004E8EDC /* RegisterView.swift */; };
+		3E9C17452AE64338004E8EDC /* ListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9C17442AE64338004E8EDC /* ListItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3E306C152AE63A9500F98713 /* swift-todo-list.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-todo-list.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E306C182AE63A9500F98713 /* swift_todo_listApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_todo_listApp.swift; sourceTree = "<group>"; };
-		3E306C1A2AE63A9500F98713 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3E306C1A2AE63A9500F98713 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		3E306C1C2AE63A9700F98713 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E306C1F2AE63A9700F98713 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3E306C5F2AE63D6900F98713 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3E9C173A2AE6427A004E8EDC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		3E9C173C2AE642A1004E8EDC /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		3E9C173E2AE642B3004E8EDC /* NewItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemView.swift; sourceTree = "<group>"; };
+		3E9C17402AE642BE004E8EDC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		3E9C17422AE642DA004E8EDC /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		3E9C17442AE64338004E8EDC /* ListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,7 +139,13 @@
 		3E9C17362AE640CF004E8EDC /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				3E306C1A2AE63A9500F98713 /* ContentView.swift */,
+				3E306C1A2AE63A9500F98713 /* MainView.swift */,
+				3E9C173A2AE6427A004E8EDC /* ProfileView.swift */,
+				3E9C173C2AE642A1004E8EDC /* ListView.swift */,
+				3E9C173E2AE642B3004E8EDC /* NewItemView.swift */,
+				3E9C17402AE642BE004E8EDC /* LoginView.swift */,
+				3E9C17422AE642DA004E8EDC /* RegisterView.swift */,
+				3E9C17442AE64338004E8EDC /* ListItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -259,8 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E306C1B2AE63A9500F98713 /* ContentView.swift in Sources */,
+				3E9C17412AE642BE004E8EDC /* LoginView.swift in Sources */,
+				3E306C1B2AE63A9500F98713 /* MainView.swift in Sources */,
+				3E9C173B2AE6427A004E8EDC /* ProfileView.swift in Sources */,
+				3E9C17452AE64338004E8EDC /* ListItemView.swift in Sources */,
+				3E9C17432AE642DA004E8EDC /* RegisterView.swift in Sources */,
 				3E306C192AE63A9500F98713 /* swift_todo_listApp.swift in Sources */,
+				3E9C173D2AE642A1004E8EDC /* ListView.swift in Sources */,
+				3E9C173F2AE642B3004E8EDC /* NewItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
