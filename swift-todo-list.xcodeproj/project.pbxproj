@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E0F3A7C2AE7724B0054DE3C /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F3A7B2AE7724B0054DE3C /* HeaderView.swift */; };
 		3E306C192AE63A9500F98713 /* swift_todo_listApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E306C182AE63A9500F98713 /* swift_todo_listApp.swift */; };
 		3E306C1B2AE63A9500F98713 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E306C1A2AE63A9500F98713 /* MainView.swift */; };
 		3E306C1D2AE63A9700F98713 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E306C1C2AE63A9700F98713 /* Assets.xcassets */; };
@@ -57,6 +58,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E0F3A7B2AE7724B0054DE3C /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		3E306C152AE63A9500F98713 /* swift-todo-list.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-todo-list.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E306C182AE63A9500F98713 /* swift_todo_listApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_todo_listApp.swift; sourceTree = "<group>"; };
 		3E306C1A2AE63A9500F98713 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 				3E9C17402AE642BE004E8EDC /* LoginView.swift */,
 				3E9C17422AE642DA004E8EDC /* RegisterView.swift */,
 				3E9C17442AE64338004E8EDC /* ListItemView.swift */,
+				3E0F3A7B2AE7724B0054DE3C /* HeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E9C17492AE643AB004E8EDC /* ListItem.swift in Sources */,
+				3E0F3A7C2AE7724B0054DE3C /* HeaderView.swift in Sources */,
 				3E9C17412AE642BE004E8EDC /* LoginView.swift in Sources */,
 				3E306C1B2AE63A9500F98713 /* MainView.swift in Sources */,
 				3E9C17552AE64466004E8EDC /* RegisterViewModel.swift in Sources */,
